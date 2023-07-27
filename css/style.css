@@ -1,9 +1,50 @@
+:root{
+    --brs-primary:#1b72e8;
+    --brs-grey:#e5e5e5;
+    --brs-white:white;
+}
+
+
 .sidebar{
     height: 100vh;
+
     background-color: aqua;
 }
 
 .banner{
- 
+   
     background-color: bisque;
+}
+
+.col-12{
+   height: 100px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.col-4{
+    background-color: aliceblue;
+    height: 100px;
+}
+
+.dropdown-menu.show{
+    left: -140px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.logo-mobile{
+    width: 30px;
+}
+
+.center{
+    width: 80%;
+}
+
+.search-bar{
+    background-color: var(--brs-grey);
+    font-weight: 500;
+}
 }
