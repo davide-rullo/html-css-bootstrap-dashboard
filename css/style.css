@@ -13,23 +13,25 @@
 
 header{
     background-color: var(--brs-white);
+   
 }
 
 main{
-    padding-top: 3rem;
+    padding-top: 4rem;
 }
 
 .sidebar {}
 
 .banner {
-
-    background-color: bisque;
+    color: var(--brs-white);
+    background-color: var(--brs-primary);
+    height: 180px;
 }
 
 .col-12 {
     height: 100px;
     background-color: black;
-    border: 1px solid white;
+    
 }
 
 .col-4 {
@@ -70,4 +72,13 @@ img {
     line-height: 1.5rem;
     padding-right: 1rem;
     width: 38px;
+}
+
+.wrapper{
+    padding: 0;
+}
+
+
+.banner .badge{
+    background-color:rgba(0, 0, 0, 0.24);
 }
