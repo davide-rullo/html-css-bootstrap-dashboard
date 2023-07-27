@@ -25,12 +25,11 @@ main{
 .banner {
     color: var(--brs-white);
     background-color: var(--brs-primary);
-    height: 180px;
+
 }
 
 .col-12 {
-    height: 100px;
-    background-color: black;
+
     
 }
 
@@ -71,7 +70,7 @@ img {
 .sidebar i{
     line-height: 1.5rem;
     padding-right: 1rem;
-    width: 38px;
+    width: 30px;
 }
 
 .wrapper{
@@ -82,3 +81,4 @@ img {
 .banner .badge{
     background-color:rgba(0, 0, 0, 0.24);
 }
+
