@@ -91,9 +91,9 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="side-bottom d-flex p-3 pb-5">
-                            <i class="fa-solid fa-gear"></i>
-                            <h5 class="d-none d-lg-flex">Admin</h5>
+                        <div class="admin side-bottom d-flex p-3 pb-4">
+                            <a href="#"><i class="fa-solid fa-gear"></i>
+                            <h5 class="d-none d-lg-flex">Admin</h5></a>
                         </div>
                     </div>
 
@@ -102,25 +102,64 @@
                             <div class="row">
                             <div class="col-12  col-md-4 banner-left order-md-3 text-md-center">
                                 <p class="new-student d-inline-block ">Nuovo studente </p>
-                                <button type="button" class=" btn btn-outline-light d-inline-block "><h6>+</h6></button></p>
-                                
+                                <button type="button"  data-bs-toggle="offcanvas" href="#offcanvasAdd" class=" btn btn-outline-light d-inline-block "><h6>+</h6></button></p>
+                               
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasAdd" aria-labelledby="offcanvasAddLabel">
+                                    <div class="offcanvas-header">
+                                      <h5 class="offcanvas-title" id="offcanvasAddLabel">Inserisci un nuovo studente</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                      <div>
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="name1" class="form-label">Nome</label>
+                                                <input type="name" class="form-control" id="name1" aria-describedby="emailHelp">
+                                              </div>
+                                            <div class="mb-3">
+                                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            </div>
+                                            <div class="mb-3">
+                                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                                              <input type="password" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                            <div class="mb-3 form-check">
+                                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                          </form>
+                                      </div>
+                                      <div class="dropdown mt-3">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                          Dropdown button
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Action</a></li>
+                                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>                       
                             </div>
 
                             <div class="col-12  col-md-4 order-md-1 banner-center pb-2">
                                <div class="first-badge d-flex align-items-center">
                                     <h2>Boolean</h2>
-                                    <h6><span class="badge ">Piano Blaze</span></h6>
+                                   <a href="#"><h6><span class="badge rounded-pill">Piano Blaze</span></h6></a> 
                                 </div>
                                 <div class="badges d-flex gap-2">
-                                    <h6><span class="badge ">3 app</span></h6>
+                                   <a href="#"> <h6><span class="badge rounded-pill">3 app</span></h6></a>
                                     <i class="fa-solid fa-angles-right"></i>
                                     <div class="boolean-app d-flex d-none d-xxl-flex">
                                         
-                                    <h6><span class="badge ">Boolean mobile app</span></h6>
-                                    <h6><span class="badge ">Boolean web app</span></h6>
-                                    <h6><span class="badge ">Boolean blog app</span></h6>
+                                    <a href="#"><h6><span class="badge rounded-pill">Boolean mobile app</span></h6></a>
+                                    <a href="#"><h6><span class="badge rounded-pill ">Boolean web app</span></h6></a>
+                                    <a href="#"><h6><span class="badge rounded-pill ">Boolean blog app</span></h6></a>
                                 </div>
-                                <h6><span class="badge d-lg-none">+</span></h6>
+                                <a href="#"><h6><span class="badge d-lg-none rounded-pill">+</span></h6></a>
                                 </div>
                             </div>
 
@@ -142,7 +181,7 @@
                                                 </div>
                                                 <div class="card-body">
                                                    
-                                                    <table class="table">
+                                                    <table class="table table-hover">
                                                         <thead>
                                                           <tr>
                                                             <td class="w-50 text-start" scope="col"><h6>Nome</h6></td>
