@@ -109,7 +109,7 @@
                                         href="#offcanvasAdd"
                                         class=" btn btn-outline-light d-inline-block "><h6>+</h6></button></p>
 
-                                <div class="offcanvas offcanvas-end"
+                                <div class="offcanvas offcanvas-end w-100"
                                     tabindex="-1" id="offcanvasAdd"
                                     aria-labelledby="offcanvasAddLabel">
                                     <div class="offcanvas-header">
@@ -120,18 +120,19 @@
                                             data-bs-dismiss="offcanvas"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div class="offcanvas-body">
+                                    <div class="offcanvas-body ">
                                         <div>
                                             <form>
-                                                <div class="name-surname d-flex">
-                                                    <div class="mb-3">
+                                                
+                                                <div class="name-surname d-flex gap-3">
+                                                    <div class="mb-3 w-100">
                                                         <label for="name1"
                                                             class="form-label"><h6>Nome</h6></label>
                                                         <input type="name"
                                                             class="form-control"
                                                             id="name1">
                                                     </div>
-                                                    <div class="mb-3">
+                                                    <div class="mb-3 w-100">
                                                         <label for="surname1"
                                                             class="form-label"><h6>Cognome</h6></label>
                                                         <input type="surname"
@@ -140,28 +141,15 @@
                                                     </div>
                                                 </div>
                                                 <div
-                                                    class="email-password d-flex">
-                                                    <div class="mb-3">
-                                                        <div class="input-group">
-
-                                                            <label
-                                                                for="email1"
-                                                                class="form-label "><h6>Email</h6>
-                                                            </label>
-                                                            <div class="d-flex">
-                                                                <div
-                                                                    class="input-group-text "
-                                                                    id="btnGroupAddon">@
-                                                                </div>
-
-                                                                <input
-                                                                    type="surname"
-                                                                    class="form-control"
-                                                                    id="surname1">
-                                                            </div>
-                                                        </div>
+                                                    class="email-password d-flex gap-3">
+                                                    <div class="mb-3 w-100">
+                                                        <label for="email"
+                                                            class="form-label"><h6>Email</h6></label>
+                                                        <input type="surname"
+                                                            class="form-control"
+                                                            id="email">
                                                     </div>
-                                                    <div class="mb-3">
+                                                    <div class="mb-3 w-100">
                                                         <label for="password1"
                                                             class="form-label"><h6>Password</h6></label>
                                                         <input type="password"
@@ -170,39 +158,10 @@
                                                     </div>
                                                 </div>
 
-                                                <div
-                                                    class="email-password d-flex">
-                                                    <div class="mb-3">
-                                                        <div class="input-group">
-
-                                                            <label
-                                                                for="email1"
-                                                                class="form-label "><h6>Indirizzo
-                                                                    Email</h6>
-                                                            </label>
-                                                            <div class="d-flex">
-                                                                <div
-                                                                    class="input-group-text "
-                                                                    id="btnGroupAddon">@
-                                                                </div>
-
-                                                                <input
-                                                                    type="surname"
-                                                                    class="form-control"
-                                                                    id="surname1">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="password1"
-                                                            class="form-label"><h6>Password</h6></label>
-                                                        <input type="password"
-                                                            class="form-control"
-                                                            id="password1">
-                                                    </div>
-                                                </div>
+                                            
+                                             
                                                 <div class="address ">
-                                                    <div class="mb-3">
+                                                    <div class="mb-3 w-100">
                                                         <label for="indirizzo"
                                                             class="form-label"><h6>Indirizzo</h6></label>
                                                         <input type="indirizzo"
@@ -210,15 +169,15 @@
                                                             id="indirizzo">
                                                     </div>
                                                 </div>
-                                                <div class="city d-flex">
-                                                    <div class="mb-3">
+                                                <div class="city d-flex gap-3">
+                                                    <div class="mb-3 w-100">
                                                         <label for="city1"
                                                             class="form-label"><h6>Città</h6></label>
                                                         <input type="city"
                                                             class="form-control"
                                                             id="city1">
                                                     </div>
-                                                    <div class="mb-3">
+                                                    <div class="mb-3 w-100">
                                                         <label for="country"
                                                             class="form-label"><h6>Stato</h6></label>
                                                         <select
@@ -230,7 +189,7 @@
                                                             <option value="3">Three</option>
                                                         </select>
                                                     </div>
-                                                    <div class="mb-3">
+                                                    <div class="mb-3 w-100">
                                                         <label for="cap"
                                                             class="form-label"><h6>CAP</h6></label>
                                                         <input type="cap"
