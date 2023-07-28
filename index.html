@@ -109,7 +109,7 @@
                                         href="#offcanvasAdd"
                                         class=" btn btn-outline-light d-inline-block "><h6>+</h6></button></p>
 
-                                <div class="offcanvas offcanvas-end w-100"
+                                <div class="offcanvas offcanvas-end  w-sm-"
                                     tabindex="-1" id="offcanvasAdd"
                                     aria-labelledby="offcanvasAddLabel">
                                     <div class="offcanvas-header">
@@ -120,7 +120,7 @@
                                             data-bs-dismiss="offcanvas"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div class="offcanvas-body ">
+                                    <div class="offcanvas-body text-start">
                                         <div>
                                             <form>
                                                 
@@ -143,11 +143,17 @@
                                                 <div
                                                     class="email-password d-flex gap-3">
                                                     <div class="mb-3 w-100">
-                                                        <label for="email"
+                                                        <label for="email1"
                                                             class="form-label"><h6>Email</h6></label>
-                                                        <input type="surname"
-                                                            class="form-control"
-                                                            id="email">
+                                                        <div class="input-group">
+                                                            
+                                                            <span class="input-group-text"
+                                                                id="email">@</span>
+                                                            <input type="email"
+                                                                class="form-control"
+                                                                aria-label="Indirizzo_Email"
+                                                                aria-describedby="email">
+            </div>
                                                     </div>
                                                     <div class="mb-3 w-100">
                                                         <label for="password1"
