@@ -20,7 +20,7 @@ main{
     padding-top: 4rem;
 }
 
-.sidebar {}
+
 
 .banner {
     color: var(--brs-white);
@@ -64,7 +64,7 @@ img {
 .sidebar {
     background-color: var(--brs-side);
     background-image: url("../img/sidebar-bg.png");
-    height: 100vh;
+   
 }
 
 .sidebar i{
@@ -82,3 +82,19 @@ img {
     background-color:rgba(0, 0, 0, 0.24);
 }
 
+table img{
+    width: 25px;
+    margin-right: 0.5rem;
+}
+
+table{
+ text-align: center;
+}
+
+.new-student{
+ padding-right: 1rem;
+}
+
+.banner h2{
+    padding-right: 1rem;
+}
