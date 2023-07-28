@@ -47,7 +47,7 @@ img {
 }
 
 .logo-mobile {
-    width: 30px;
+    width: 40px;
 }
 
 .center {
@@ -69,8 +69,12 @@ img {
 
 .sidebar i{
     line-height: 1.5rem;
-    padding-right: 1rem;
-    width: 30px;
+   
+    
+}
+
+.sidebar h5{
+    padding-left: 1rem;
 }
 
 .wrapper{
@@ -121,6 +125,14 @@ table{
     transition: all .2s linear;
 }
 
-.card{
 
+.sidebar{
+    width: 64px;
+}
+
+
+@media screen and (min-width:991px) {
+    .sidebar{
+        width: 200px;
+    }
 }
