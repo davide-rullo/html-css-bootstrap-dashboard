@@ -99,3 +99,6 @@ table{
     padding-right: 1rem;
 }
 
+.report{
+    color: var(--brs-primary);
+}
