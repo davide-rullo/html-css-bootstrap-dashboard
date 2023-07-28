@@ -131,8 +131,16 @@ table{
 }
 
 
+.offcanvas{
+    width:   100vw !important; 
+}
+
+
 @media screen and (min-width:991px) {
     .sidebar{
         width: 200px;
+    }
+    .offcanvas{
+        width: 50vw !important; 
     }
 }
